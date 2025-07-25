@@ -1,4 +1,4 @@
-# Given a sentance, count how many times i word appears.
+# Given a sentance, count how many times a word appears.
 
 str = "hello world world hello cat rabbit"
 
