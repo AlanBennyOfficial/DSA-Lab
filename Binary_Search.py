@@ -1,7 +1,7 @@
 import time
 
 lst = [1,2,3,56,89,456,786,1546]
-lst.sort()  # Ensure the list is sorted
+lst.sort()
 
 def BinSearch(target, lst):
     high = len(lst)-1
@@ -35,3 +35,4 @@ if result != -1:
 else:
     print("Element is not present in array")
     print(f"Time taken: {end - start} seconds")
+
