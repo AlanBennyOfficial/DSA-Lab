@@ -1,3 +1,5 @@
+import time
+
 lst = [1,2,3,56,89,456,786,1546]
 lst.sort()  # Ensure the list is sorted
 
@@ -22,10 +24,14 @@ def BinSearch(target, lst):
 
 target = 456
 
+start = time.time()
 result = BinSearch(target, lst)
+end = time.time()
 
 if result != -1:
     print("Element is present at index", result)
     print(lst[result])
+    print(f"Time taken: {end - start} seconds")
 else:
     print("Element is not present in array")
+    print(f"Time taken: {end - start} seconds")
