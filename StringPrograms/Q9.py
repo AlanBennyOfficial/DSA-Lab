@@ -1,3 +1,5 @@
+# Count uppercase, lowercase, digits & special character.
+
 str = "Hello, World"
 
 UpperCase = 0
@@ -17,3 +19,4 @@ for i in str:
     
 
 print(f"Uppercase: {UpperCase}\nLowercase: {LowerCase}\nDigit: {Digit}\nSpecial Character: {notalnum}")
+
