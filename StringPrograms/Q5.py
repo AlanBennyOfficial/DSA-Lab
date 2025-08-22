@@ -1,3 +1,5 @@
+# To find the frequency of each character.
+
 str = "Hello World"
 dict = {}
 
@@ -6,5 +8,6 @@ for i in str:
         dict[i] += 1
     else:
         dict[i] = 1
+
 
 print(dict)
