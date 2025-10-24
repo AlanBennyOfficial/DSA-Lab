@@ -57,3 +57,19 @@ if __name__ == '__main__':
 
         elif choice == 3:
             q.peek()
+
+        elif choice == 4:
+            q.display()
+
+        elif choice == 5:
+            if q.is_empty():
+                print("Queue is empty")
+            else:
+                print("Queue is not empty")
+
+        elif choice == 6:
+            print("Exiting...")
+            break
+        
+        else:
+            print("Invalid choice") 
